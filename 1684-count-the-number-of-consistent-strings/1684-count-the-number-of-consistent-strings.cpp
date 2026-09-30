@@ -6,10 +6,10 @@ public:
         for(int i=0;i<allowed.size();i++)
         {
             mp[allowed[i]];
-        }
+        } 
         for(int i=0;i<words.size();i++)
-        {   bool istrue = false;
-
+        {  
+            bool istrue = false;
             for(int j=0;j<words[i].size();j++)
             {
                 if(mp.find(words[i][j])!=mp.end()) istrue=true;
